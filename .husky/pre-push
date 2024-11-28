@@ -1,0 +1,9 @@
+BRANCH_NAME=$(git symbolic-ref --short HEAD)
+
+if [ "$BRANCH_NAME" = "main" ]; then
+  echo "🚫 Push direto na branch 'main' não é permitido."
+  echo "Use uma branch de feature e abra um Pull Request."
+  exit 1
+fi
+
+exit 0
