@@ -8,6 +8,7 @@ back-end usando Node.js + Fastify.
 **O que foi usado no projeto do BFF:**
 
 - Node.js
+- Fastify
 - TypeScript
 - TypeORM
 - JWT
@@ -58,4 +59,16 @@ src
 |-- tsconfig.json
 |-- package.json
 |-- README.md
+```
+
+<hr />
+
+**Ações necessárias para rodar o projeto em sua máquina:**
+
+```
+1 - Clone ou baixe o repositório <br />
+2 - Tenha instalado e rodando o Docker em sua máquina
+3 - Execute o comando para instalar os pacotes necessários: `npm run install` <br />
+4 - Rode o comando para subir os containers do banco e pgadmin: `docker compose up -d`
+3 - Rode o projeto executando o comando: `npm run start:dev` <br />
 ```

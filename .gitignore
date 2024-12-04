@@ -7,3 +7,6 @@ dist
 # env
 .env.development
 .env.production
+
+# docker
+.docker
