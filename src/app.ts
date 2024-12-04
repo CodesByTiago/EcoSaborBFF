@@ -19,4 +19,8 @@ app.register(TypeormFastifyPlugin, { ...dataSourceOptions });
 // Registered Routes
 app.register(registeredRoutes);
 
+app.get('/', function (request, reply) {
+  reply.send('EcoSabor API');
+});
+
 export default app;
